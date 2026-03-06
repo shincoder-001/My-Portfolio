@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manish Jadaun | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <div class="sakura-container"></div>
+</head>
+<body>
+
+    <canvas id="dust-canvas"></canvas>
+
+    <canvas id="lightning-canvas"></canvas>
+
+    <div class="smoke-overlay"></div>
+
+    <div class="red-moon"></div>
+
+    <nav class="navbar glass">
+        <div class="logo">MJ<span class="dot">.</span></div>
+        <ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#dsa">CP & DSA</a></li>
+
+    <!-- Added Download Buttons -->
+    <li><a href="resume.pdf" download>Resume</a></li>
+    <li><a href="#contact">Contact</a></li>
+</ul>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="content-card hero-card fade-in-up">
+            <div class="hero-content centered-hero">
+                <h3>Hello, I'm</h3>
+                <h1 class="animated-name">
+               <span id="name-rotate">Manish Jadaun</span>
+                </h1>
+                <p>B.Tech CSE | Full Stack Developer</p>
+                <p class="subtitle">Specializing in <span class="highlight">Software Development</span> & Modern Web Tech.</p>
+                
+                <div class="hero-btns">
+                    <a href="#projects" class="btn primary">View Work</a>
+                    <a href="#contact" class="btn secondary">Contact Me</a>
+                </div>
+                
+                <div class="social-hero">
+                    <a href="https://github.com/shincoder-001" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/manish-jadaun-fullstack2606/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://codolio.com/profile/shincoder_001" target="_blank" title="Codolio"><i class="fas fa-code"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <a href="#about" class="scroll-down">
+            <i class="fas fa-chevron-down"></i>
+        </a>
+    </section>
+
+    <section id="about" class="section">
+        <div class="content-card reveal">
+            <h2 class="section-title">About <span class="highlight">Me</span></h2>
+            
+            <div class="about-container">
+                <div class="about-img">
+                    <div class="img-border">
+                        <img src="profile.gif" alt="Manish Jadaun">
+                    </div>
+                </div>
+
+                <div class="about-text">
+                    <p>
+                        I’m Manish Jadaun, a B.Tech CSE student at MMMUT (2025–2029) with a strong interest in software development and full-stack web technologies. I’m building my foundation through Competitive Programming, DSA, and hands-on work with HTML5, CSS3, and JavaScript, while also exploring cloud technologies to strengthen my technical profile.
+                    </p>
+                    <p>
+                        Alongside my engineering journey, I’m preparing for the JLPT as I aim to grow into a developer capable of contributing not only to top tech companies in India but also to the Japanese tech industry in the future. With curiosity, consistency, and a passion for learning, I’m continuously working to become a better developer every day.
+                    </p>
+                    
+                    <div class="about-stats">
+                        <div class="a-stat">
+                            <span>1000+</span>
+                            <p>Problem solved</p>
+                        </div>
+                        <div class="a-stat">
+                            <span>3</span>
+                            <p>Projects</p>
+                        </div>
+                        <div class="a-stat">
+                            <span>100%</span>
+                            <p>Dedication</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="content-card reveal">
+            <h2 class="section-title">Technical <span class="highlight">Skills</span></h2>
+            
+            <div class="skills-grid-container">
+                <div class="skill-section-box">
+                    <h3>Frontend Development</h3>
+                    <div class="skill-pills-container">
+                        <div class="skill-pill"><i class="fab fa-html5" style="color: #e34f26;"></i> HTML5</div>
+                        <div class="skill-pill"><i class="fab fa-css3-alt" style="color: #1572b6;"></i> CSS3</div>
+                        <div class="skill-pill"><i class="fab fa-js" style="color: #f7df1e;"></i> JavaScript</div>
+                        <div class="skill-pill"><i class="fab fa-react" style="color: #61dafb;"></i> React.js</div>
+                    </div>
+                </div>
+
+                <div class="skill-section-box">
+                    <h3>Backend Development</h3>
+                    <div class="skill-pills-container">
+                        <div class="skill-pill"><i class="fab fa-node" style="color: #339933;"></i> Node.js</div>
+                        <div class="skill-pill"><i class="fas fa-server" style="color: var(--text-main);"></i> Express.js</div>
+                        <div class="skill-pill"><i class="fas fa-database" style="color: #4db33d;"></i> MongoDB</div>
+                        <div class="skill-pill"><i class="fas fa-database" style="color: #00758f;"></i> MySQL</div>
+                        <div class="skill-pill"><i class="fas fa-cloud" style="color: var(--text-main);"></i> REST APIs</div>
+                    </div>
+                </div>
+
+                <div class="skill-section-box">
+                 <h3>Languages</h3>
+                 <div class="skill-pills-container">
+                  <div class="skill-pill"><i class="fas fa-code" style="color: #00599c;"></i> C++</div>
+                  <div class="skill-pill"><i class="fab fa-python" style="color: #3776ab;"></i> Python</div>
+                  <div class="skill-pill"><i class="fab fa-java" style="color: #007396;"></i> Java</div>
+                  <div class="skill-pill"><i class="fab fa-js" style="color: #f7df1e;"></i> JavaScript</div>
+                  <div class="skill-pill"><i class="fas fa-database" style="color: #00758f;"></i> SQL</div>
+                </div>
+           </div>
+            <div class="skill-section-box">
+            <h3>Tools</h3>
+           <div class="skill-pills-container">
+               <div class="skill-pill"><i class="fab fa-git-alt" style="color: #f05032;"></i> Git</div>
+               <div class="skill-pill"><i class="fab fa-github" style="color: var(--text-main);"></i> GitHub</div>
+               <div class="skill-pill"><i class="fas fa-terminal" style="color: var(--text-main);"></i> VS Code</div>
+              </div>
+            </div>
+
+                <div class="skill-section-box">
+                    <h3>CS Fundamentals & CP</h3>
+                    <div class="skill-pills-container">
+                        <div class="skill-pill"><i class="fas fa-brain" style="color: var(--primary);"></i> Data Structures</div>
+                        <div class="skill-pill"><i class="fas fa-project-diagram" style="color: var(--primary);"></i> Algorithms</div>
+                        <div class="skill-pill"><i class="fas fa-cubes" style="color: var(--text-main);"></i> OOP</div>
+                        <div class="skill-pill"><i class="fas fa-database" style="color: var(--text-main);"></i> DBMS</div>
+                        <div class="skill-pill"><i class="fas fa-laptop-code" style="color: var(--text-main);"></i> OS</div>
+                        <div class="skill-pill"><i class="fas fa-network-wired" style="color: var(--text-main);"></i> CN</div>
+                        <div class="skill-pill"><i class="fas fa-code" style="color: #f39c12;"></i> LeetCode</div>
+                        <div class="skill-pill"><i class="fas fa-code" style="color: #3498db;"></i> Codeforces</div>
+                    </div>
+                </div>
+                <div class="skill-section-box">
+    <h3>System Environments</h3>
+    <div class="skill-pills-container">
+
+        <div class="skill-pill mac">
+            <i class="fab fa-apple"></i> macOS Terminal
+        </div>
+
+        <div class="skill-pill win">
+            <i class="fab fa-windows"></i> Windows PowerShell
+        </div>
+
+        <div class="skill-pill kubuntu">
+            <i class="fab fa-linux"></i> Kubuntu Linux
+        </div>
+
+        <div class="skill-pill konsole">
+            <i class="fas fa-terminal"></i> Linux Konsole
+        </div>
+
+    </div>
+</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="content-card reveal">
+            <h2 class="section-title">Key <span class="highlight">Projects</span></h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>To-Do App</h3>
+                        <p> A simple todo app made by vallina js </p>
+                        <div class="tags">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>Chart.js</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/shincoder-001/Todo-app"><i class="fab fa-github"></i> Code</a>
+                            <a href="https://shincoder-001.github.io/Todo-app/"><i class="fas fa-external-link-alt"></i> Live</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>College Society Manangement</h3>
+                        <p> A prompt + cursor AI maded project </p>
+                        <div class="tags">
+                            <span>TypesScript</span>
+                            <span>prompt</span>
+                            <span>Cursor AI</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/shincoder-001/College_Society_Management"><i class="fab fa-github"></i> Code</a>
+                            <a href="https://college-society-management-wheat.vercel.app/"><i class="fas fa-external-link-alt"></i> Live</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="dsa" class="section">
+        <div class="content-card reveal">
+            <h2 class="section-title">CP & <span class="highlight">DSA</span></h2>
+            <div class="dsa-container">
+                <div class="dsa-stats">
+                    <h3>Problem Solving Stats</h3>
+                    <p>Competitive programmer dedicated to solving challenging problems and sharpening algorithmic thinking.</p>
+                    <div class="stat-items">
+                        <div class="stat">
+                            <span class="count">1000+</span>
+                            <span class="label">Problems Solved</span>
+                        </div>
+                        <div class="stat">
+                            <span class="count">Pupil</span>
+                            <span class="label">Codeforces Rating</span>
+                        </div>
+                         <div class="stat">
+                            <span class="count">Knight</span>
+                            <span class="label">LeetCode Rating</span>
+                        </div>
+                         <div class="stat">
+                            <span class="count">3star</span>
+                            <span class="label">CodeChef Rating</span>
+                        </div>
+                         <div class="stat">
+                            <span class="count">8kyu</span>
+                            <span class="label">AtCoder Rating</span>
+                        </div>
+                    </div>
+                    <div class="dsa-btns">
+                        <a href="https://codeforces.com/profile/shincoder_001" class="btn primary" target="_blank">Codeforces Profile</a>
+                        <a href="https://leetcode.com/u/shincoder_001/" class="btn secondary" target="_blank">LeetCode Profile</a>
+                        <a href="https://www.codechef.com/users/shincoder_001" class="btn secondary" target="_blank">CodeChef Profile</a>
+                        <a href="https://atcoder.jp/users/shincoder_001" class="btn secondary" target="_blank">AtCoder Profile</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="resume" class="section">
+    <div class="content-card reveal">
+        <h2 class="section-title">Resume </h2>
+
+        <p class="contact-text">     Download my latest Resume in PDF format quick and fast.</p>
+
+        <div class="resume-btns">
+            <a href="resume.pdf" download class="btn primary big-btn">
+                <i class="fas fa-file-download"></i> Download Resume
+            </a>
+        </div>
+    </div>
+</section>
+    <section id="contact" class="section footer-section">
+        <div class="content-card reveal">
+            <h2 class="section-title">Get In <span class="highlight">Touch</span></h2>
+            <p class="contact-text">I'm currently looking for new opportunities. Whether you have a question or just want to say hi, my inbox is always open!</p>
+            <a href="mailto:manish.jadaun2606@gmail.com" class="btn primary big-btn">Say Hello</a>
+            
+            <div class="footer-socials">
+                <a href="https://github.com/shincoder-001" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/manish-jadaun-fullstack2606/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://codolio.com/profile/shincoder_001" target="_blank" title="Codolio"><i class="fas fa-code"></i></a>
+            </div>
+            <p class="copyright">© 2024 Manish Jadaun. Built with code.</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
